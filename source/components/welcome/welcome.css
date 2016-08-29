@@ -1,0 +1,8 @@
+.h1 { 
+	color: #ccc;
+	font-size: 32px;
+}
+
+.box--welcome p {
+	margin: 5px 0;
+}
