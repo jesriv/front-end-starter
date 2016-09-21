@@ -1,3 +1,4 @@
+require('../../stylesheets/source/vars.scss');
 require('../../stylesheets/source/global.css');
 
 

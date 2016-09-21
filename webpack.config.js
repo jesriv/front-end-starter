@@ -10,12 +10,15 @@ module.exports = {
      },
      
      module: {
-	     loaders: [
-	     	{
+	   loaders: [
+	    {
                 test: /\.css$/,
                 loader: ExtractTextPlugin.extract("style-loader", "css-loader")
             },
-
+	    {
+		test: /\.scss$/,
+		loaders: ["style", "css", "sass"]
+	    },
             {
             	test: /\.js$/,
             	exclude: /(node_modules)/,
@@ -24,7 +27,7 @@ module.exports = {
             		presets: ['es2015']
             	}
             }
-	     ]
+	    ]
      },
      
      plugins: [
