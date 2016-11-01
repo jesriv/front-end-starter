@@ -8,12 +8,12 @@
     <title>Middleman</title>
 
     <%= stylesheet_link_tag 'build/styles' %>
-    <%= javascript_include_tag 'build/app' %>
   </head>
 
   <body>
     <div class="container">
       <%= yield %>
     </div>
+    <%= javascript_include_tag 'build/app' %>
   </body>
 </html>

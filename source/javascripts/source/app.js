@@ -2,4 +2,6 @@ require('../../stylesheets/source/vars.scss');
 require('../../stylesheets/source/global.css');
 
 
-require('../../components/welcome/welcome.js');
+require('../../components/welcome/welcome');
+
+
