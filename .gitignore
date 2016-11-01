@@ -19,7 +19,7 @@
 
 /node_modules
 
-/javascripts/build
-/stylesheets/build
+/source/javascripts/build
+/source/stylesheets/build
 
 .tmp
