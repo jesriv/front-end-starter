@@ -20,7 +20,7 @@ module.exports = {
         		loaders: ["style", "css", "sass"]
     	    },
             {
-            	test: /\.js$/,
+            	test: /\.js|\.jsx$/,
             	exclude: /(node_modules)/,
             	loader: 'babel',
             	query: {
